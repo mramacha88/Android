@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout_ListviewRow"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:paddingBottom="2dp"
+    android:paddingLeft="5dp" >
+
+    <TextView
+        android:id="@+id/TextView_EventName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textSize="16sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/TextView_Category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textselector"
+        android:clickable="true"
+        android:textSize="12sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/TextView_EventOrganizer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/TextView_EventAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textselector"
+        android:textSize="12sp" >
+    </TextView>
+
+</LinearLayout>
